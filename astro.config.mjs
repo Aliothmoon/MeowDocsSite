@@ -1,11 +1,20 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightThemeNova from 'starlight-theme-nova';
 
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
 		starlight({
+			plugins: [
+				starlightThemeNova({
+					nav: [
+						{ label: '常见问题', href: '/faq/getting-started/' },
+						{ label: 'GitHub', href: 'https://github.com/Aliothmoon/MAA-Meow' },
+					],
+				}),
+			],
 			title: 'MaaMeow 指南',
 			description: 'MaaMeow 常见问题与基础使用指南',
 			defaultLocale: 'root',
