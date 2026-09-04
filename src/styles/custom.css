@@ -1,0 +1,50 @@
+/* 主题色，改这里即可全站换色 */
+:root {
+	--sl-color-accent-low: #2a1e3d;
+	--sl-color-accent: #8b5cf6;
+	--sl-color-accent-high: #d6c4ff;
+	--sl-font: 'Inter', system-ui, -apple-system, 'Segoe UI', 'PingFang SC',
+		'Microsoft YaHei', sans-serif;
+}
+
+:root[data-theme='light'] {
+	--sl-color-accent-low: #ede4ff;
+	--sl-color-accent: #6d3ff0;
+	--sl-color-accent-high: #2e1a6b;
+}
+
+/* FAQ 折叠块 */
+details.faq {
+	border: 1px solid var(--sl-color-gray-5);
+	border-radius: 0.5rem;
+	padding: 0.75rem 1rem;
+	margin-block: 1rem;
+	background: var(--sl-color-bg-nav);
+}
+details.faq > summary {
+	cursor: pointer;
+	font-weight: 600;
+	color: var(--sl-color-white);
+}
+details.faq[open] > summary {
+	margin-bottom: 0.5rem;
+	color: var(--sl-color-accent-high);
+}
+
+/* 手机截图：限制高度 */
+.sl-markdown-content img {
+	max-height: 70vh;
+	width: auto;
+	border-radius: 0.5rem;
+	border: 1px solid var(--sl-color-gray-5);
+}
+/* 同一段落多张截图并排 */
+.sl-markdown-content p:has(> img + img) {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+	align-items: flex-start;
+}
+.sl-markdown-content p:has(> img + img) img {
+	max-height: 60vh;
+}
