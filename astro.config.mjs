@@ -30,6 +30,21 @@ export default defineConfig({
 					label: '常见问题',
 					items: [{ autogenerate: { directory: 'faq' } }],
 				},
+				{
+					label: '更多文档',
+					items: [
+						{
+							label: 'MaaMeow 快速上手',
+							link: 'https://docs.qq.com/doc/DS3NCWWdZb1ppQk9s',
+							attrs: { target: '_blank', rel: 'noopener' },
+						},
+						{
+							label: 'MaaMeow 常见问题解决方案',
+							link: 'https://docs.qq.com/doc/DVHJGbHNGbHJnY29S',
+							attrs: { target: '_blank', rel: 'noopener' },
+						},
+					],
+				},
 			],
 			lastUpdated: true,
 			pagination: true,
