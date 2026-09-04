@@ -7,6 +7,10 @@ sidebar:
 
 本指南只讨论 **后台模式**，目标是 15 分钟内让你掌握 MaaMeow 的基础操作。
 
+:::note[本站定位]
+MaaMeow 是 MAA 的安卓端。这里只整理 MaaMeow 特有的常见问题和踩坑记录，各任务功能的完整说明请查阅 [MAA 官方文档](https://docs.maa.plus/zh-cn/manual/introduction/startup.html)。
+:::
+
 ## 工作原理
 
 MaaMeow 基于图像识别技术，在后台虚拟显示器中无界面运行。不注入、不修改游戏数据，通常不会导致封号。

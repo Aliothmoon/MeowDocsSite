@@ -40,6 +40,11 @@ export default defineConfig({
 					label: '更多文档',
 					items: [
 						{
+							label: 'MAA 官方文档',
+							link: 'https://docs.maa.plus/zh-cn/manual/introduction/startup.html',
+							attrs: { target: '_blank', rel: 'noopener' },
+						},
+						{
 							label: 'MaaMeow 快速上手',
 							link: 'https://docs.qq.com/doc/DS3NCWWdZb1ppQk9s',
 							attrs: { target: '_blank', rel: 'noopener' },
