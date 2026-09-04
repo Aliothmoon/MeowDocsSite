@@ -16,6 +16,11 @@ export default defineConfig({
 				}),
 			],
 			title: 'MaaMeow 指南',
+			logo: { src: './src/assets/logo.png', alt: 'MaaMeow' },
+			favicon: '/favicon.png',
+			head: [
+				{ tag: 'link', attrs: { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' } },
+			],
 			description: 'MaaMeow 常见问题与基础使用指南',
 			defaultLocale: 'root',
 			locales: {
