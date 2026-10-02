@@ -6,6 +6,8 @@ import starlightThemeNova from 'starlight-theme-nova';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://docs.maameow.com',
+	// 站内链接统一带尾斜杠，避免 /en 这类地址触发 nginx 的目录跳转
+	trailingSlash: 'always',
 	integrations: [
 		starlight({
 			plugins: [
