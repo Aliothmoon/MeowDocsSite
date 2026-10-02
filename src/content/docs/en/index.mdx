@@ -1,0 +1,50 @@
+---
+title: MaaMeow Guide
+description: MaaMeow FAQ and basic usage guide.
+template: splash
+hero:
+  tagline: Answers to common MaaMeow problems. For how MAA's own features work, see the official MAA docs.
+  image:
+    file: ../../../assets/logo.png
+    alt: MaaMeow
+  actions:
+    - text: Start reading
+      link: /en/faq/getting-started/
+      icon: right-arrow
+    - text: GitHub repository
+      link: https://github.com/Aliothmoon/MAA-Meow
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+	<Card title="Getting Started" icon="rocket">
+		How it works, downloads and updates, the main screens, and how to ask for help. See [Getting Started](/en/faq/getting-started/).
+	</Card>
+	<Card title="Installation and Authorization" icon="laptop">
+		Downloading Shizuku, prerequisite settings for each phone brand, pairing and authorization. See [Installation and Authorization](/en/faq/setup/).
+	</Card>
+	<Card title="Farming" icon="setting">
+		Startup, Recruitment, Base Management, Sanity Farming, Credit Store and Rewards. See [Farming](/en/faq/daily/).
+	</Card>
+	<Card title="Scheduled Tasks" icon="seti:clock">
+		What to check when a scheduled task doesn't run, waking from the lock screen, and screen-off idle. See [Scheduled Tasks](/en/faq/schedule/).
+	</Card>
+	<Card title="Auto I.S. and Reclamation Algorithm" icon="puzzle">
+		Settings and pitfalls for [Auto I.S.](/en/faq/roguelike/) and [Reclamation Algorithm](/en/faq/reclamation/).
+	</Card>
+	<Card title="Auto Combat" icon="open-book">
+		Operations, squads, the Job List, and where to start each stage type. See [Auto Combat](/en/faq/copilot/).
+	</Card>
+	<Card title="Troubleshooting" icon="warning">
+		Service errors, screenshot failures, black screens and interrupted tasks, touch problems, and Shizuku startup failures. See [Troubleshooting](/en/faq/troubleshooting/).
+	</Card>
+	<Card title="Official MAA docs" icon="external">
+		For the full description of every task, the operation file format and advanced usage, see the [official MAA docs](https://docs.maa.plus/en-us/manual/introduction/startup.html). This site only covers problems specific to MaaMeow.
+	</Card>
+	<Card title="More docs" icon="document">
+		Tencent Docs: [MaaMeow quick start (Chinese)](https://docs.qq.com/doc/DS3NCWWdZb1ppQk9s) and [MaaMeow FAQ solutions (Chinese)](https://docs.qq.com/doc/DVHJGbHNGbHJnY29S).
+	</Card>
+</CardGrid>
