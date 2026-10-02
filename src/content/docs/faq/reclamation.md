@@ -2,7 +2,7 @@
 title: 生息演算
 description: 生息演算的启动位置、分辨率要求与常见失败原因。
 sidebar:
-  order: 4
+  order: 6
 ---
 
 :::note
@@ -95,5 +95,12 @@ sidebar:
 请检查是否游戏里有存档，但 MAA 选择了无存档模式。点击日志查看红字提示：
 
 ![日志红字提示](../../../assets/faq/image32.jpg)
+
+</details>
+
+<details class="faq">
+<summary>生息演算支持助战吗？</summary>
+
+新的生息演算可以自动借助战。
 
 </details>
